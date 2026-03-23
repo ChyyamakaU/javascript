@@ -116,3 +116,64 @@ console.log(x)
 console.log(y)
 console.log(typeof x)
 console.log(typeof y)
+
+// string concatination
+
+// way 1
+let greet = "Hello,";
+let greeting = "World!";
+// let result = greet + " "  + greeting;
+// console.log(result);
+
+// way 2.
+// let greeting ="Hello, ";
+// greeting += "world!";
+// console.log(greeting);
+
+// 3 using string literals
+// let result = `${greet} ${greeting} from template literal`
+// console.log(result);
+
+// 4. methods used on a string with a string
+// "Hello".concat()
+
+// greet.concat(greeting)
+
+// let result = "hello".concat (true+false,  " " , greeting, "," , "another " ) 
+// console.log(result)
+
+
+
+
+let quote = "Believe you can and you're halfway there.";
+let authorName =  "Theodore Roosevelt"
+
+let outcome = quote + "-" + authorName;
+
+console.log(outcome);
+
+let biography = {
+firstName: "Amaka",
+lastName : "Umunnakwe",
+country: "Nigeria",
+job: "Software Engineer"
+};
+
+let result = ` ${biography.firstName} ${biography.lastName} is a ${biography.job} in ${biography.country}`;
+
+console.log (result)
+
+
+let userProfile= {
+name: "Solex",
+age : 34,
+country: "Nigeria",
+hobby: "coding"
+};
+
+let profileOutcome  = `Name: ${userProfile.firstName} 
+Age: ${userProfile.age} 
+Country: ${userProfile.country}
+Hobby: ${userProfile.hobby}`;
+
+console.log (profileOutcome)
