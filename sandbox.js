@@ -11,11 +11,12 @@
 // let name = "John",
 // let age = 20;
 
-// console.log(name)
+// console.log(Name)
 
-// reason for error: with the keyword let,you can only declare and reassign but not redeclare. For this syntax, it should be age = 20. There is no need for repeating the let keyword, hence the error.
+// reason for error: the variables in js is case sensitive. The variable name is in lower case while the output has the first character in upper case.
 
 
+// 3.
 console.log(true + false)
 console.log(true + true)
 console.log(false + false)
@@ -70,9 +71,6 @@ var phone = {
 };
 
 console.log(phone)
-
-// i didnt notice at first but i wrote the n in null with uppercase and kept getting an error
-
 
 
 // 7. 
